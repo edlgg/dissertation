@@ -1,0 +1,4 @@
+# Split into 5000 tick images with 1000 tick shift
+# Train classifier with random subset or hardcode rules
+# create dataset using classifier and original filter with 1 tick shift
+# augment dataset (move in y)

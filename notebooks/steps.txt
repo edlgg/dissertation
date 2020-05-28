@@ -1,0 +1,5 @@
+# Split into 5000 tick images with 1000 tick shift
+# Filter images with hardcode rules
+# ? Train classifier with random subset and filter new dataset
+# ? augment dataset (move in y)
+# Create GAN
