@@ -4,7 +4,7 @@ import mido
 def mido_setup():
     mido.set_backend('mido.backends.rtmidi')
     # mido.open_output()
-    mido.open_output(name='foo', virtual=True)
+    return mido.open_output(name='foo', virtual=True)
 
 
 def get_instrument_type(instrument):
